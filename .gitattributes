@@ -1,0 +1,11 @@
+* text=auto
+*.js text eol=lf
+*.cjs text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.jpg binary
+*.gif binary
+*.mp3 binary
+SHA256SUMS text eol=lf
+shenzuoci_yizhi_v2/extension.js -text
+shenzuoci_yizhi_v2/info.json -text

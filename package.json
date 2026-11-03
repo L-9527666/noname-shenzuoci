@@ -1,0 +1,16 @@
+{
+  "name": "noname-shenzuoci",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "无名杀神左慈与神左慈改移植扩展，包含幻形和轮回。",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/L-9527666/noname-shenzuoci.git"
+  },
+  "scripts": {
+    "check": "node --check shenzuoci_yizhi_v2/extension.js && node tests/check-assets.cjs",
+    "test": "node tests/huanxing-runtime.cjs && node tests/lunhui-runtime.cjs",
+    "test:phone-catalog": "node tests/lunhui-phone-catalog.cjs"
+  }
+}
